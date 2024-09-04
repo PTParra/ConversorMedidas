@@ -1,0 +1,37 @@
+.favorito{
+    height: 38px;
+    padding: 0 7px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    color: #676767;
+    font-size: 14px;
+}
+
+#almacenFavoritos{
+    width: 349px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+}
+
+.botonQuitarFavoritos{
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+}
+
+.botonQuitarFavoritos img{
+    width: 9px;
+}
+
+@media screen and (min-width: 1000px){
+    #almacenFavoritos{
+        width: 717px;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+}

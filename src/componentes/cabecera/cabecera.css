@@ -1,0 +1,30 @@
+.tituloCabecera{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#divCabecera{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 354px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#divCabeceraMayor{
+    width: 100%;
+    height: 48px;
+    margin-bottom: 23px;
+    box-shadow: 0 2px 4px #888888;
+}
+
+@media screen and (min-width: 1000px){
+    #divCabecera{
+        max-width: 707px;
+    }
+
+    #divCabeceraMayor{
+        margin-bottom: 51px;
+    }
+}
